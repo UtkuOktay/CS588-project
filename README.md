@@ -47,6 +47,4 @@ Once all scripts have run successfully, the results (charts and HTML files conta
 ## References
 [1] G. Team et al., ‘Gemma 3 Technical Report’, arXiv [cs.CL]. 2025.
 
-[2] Peter Elmers. 2023. GitHub Public Pull Request Comments. https://www.kaggle.
-com/datasets/pelmers/github-public-pull-request-comments. Accessed: 2025-
-11-14.
+[2] Peter Elmers. 2023. GitHub Public Pull Request Comments. https://www.kaggle.com/datasets/pelmers/github-public-pull-request-comments. Accessed: 2025- 11-14.
