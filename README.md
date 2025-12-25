@@ -24,6 +24,9 @@ OPENAI_API_KEY = r"<OPENAI_API_KEY>"
 HF_TOKEN = r"<HUGGINGFACE_TOKEN>"
 ```
 
+### Dataset
+For the experiments, we used the GitHub Public Pull Request Comments dataset [2]. After downloading the ZIP file, create a folder named dataset_raw_json_files in the project’s root directory and extract all .json files into it without renaming them.
+
 ## How to Run
 Since the pipeline involves multiple preprocessing, inference, and evaluation steps, running the entire workflow at once is time-consuming. Hence, we split it into separate scripts that produce intermediate results, so that subsequent scripts can use these outputs without rerunning previous steps. Consequently, you need to run the script one by one in the following order:
 
